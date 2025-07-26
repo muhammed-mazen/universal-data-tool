@@ -1,0 +1,13 @@
+{
+  "create-expanding-line": "Create Expanding Line",
+  "create-keypoints": "Create Keypoints",
+  "create-polygon": "Create Polygon",
+  "create-box": "Create Box",
+  "create-point": "Create Point",
+  "move-keypoint": "Move Keypoint",
+  "move-polygon-point": "Move Polygon Point",
+  "change-image-tags": "Change Image Tags",
+  "change-image-class": "Change Image Class",
+  "change-region-tags": "Change Region Tags",
+  "change-region-classification": "Change Region Classification"
+}

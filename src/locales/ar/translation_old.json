@@ -1,0 +1,13 @@
+{
+  "create-expanding-line": "انشاء خط متوسع",
+  "create-keypoints": "انشاء نقاط رئيسية",
+  "create-polygon": "انشاء مضلع",
+  "create-box": "انشاء صندوق",
+  "create-point": "انشاء نقطة",
+  "move-keypoint": "تحريك نقطة رئيسية",
+  "move-polygon-point": "تحريك نقطة مضلع",
+  "change-image-tags": "تغيير شعار الصورة",
+  "change-image-class": "تغيير توسيم الصورة",
+  "change-region-tags": "تغيير شعارات المنظقة",
+  "change-region-classification": "تغيير وسوم المنطقة"
+}

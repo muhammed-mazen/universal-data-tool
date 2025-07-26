@@ -1,0 +1,79 @@
+{
+  "_from": "react-material-workspace-layout@^0.1.17",
+  "_id": "react-material-workspace-layout@0.1.17",
+  "_inBundle": false,
+  "_integrity": "sha512-GY+jFZ14IYKyzIW/KI8/R0Mttb5dTRdYDKdj++YAU/Z3HSQ7kZJ678mv5Nl7X0o081IpMFg5CRiBvvdozUmBtQ==",
+  "_location": "/react-material-workspace-layout",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-material-workspace-layout@^0.1.17",
+    "name": "react-material-workspace-layout",
+    "escapedName": "react-material-workspace-layout",
+    "rawSpec": "^0.1.17",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.17"
+  },
+  "_requiredBy": [
+    "/react-image-annotate"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-material-workspace-layout/-/react-material-workspace-layout-0.1.17.tgz",
+  "_shasum": "98a997e7d8671444fafe53caa4298b6643d1b9cb",
+  "_spec": "react-material-workspace-layout@^0.1.17",
+  "_where": "D:\\Source\\code\\udt\\node_modules\\react-image-annotate",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@material-ui/core": "^4.10.0",
+    "@material-ui/icons": "^4.9.1",
+    "classnames": "^2.2.6",
+    "react": "^16.13.1",
+    "react-use-dimensions": "^1.2.1",
+    "use-event-callback": "^0.1.0"
+  },
+  "deprecated": false,
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.1",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/preset-create-react-app": "^3.0.0",
+    "@storybook/react": "^5.3.18",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "babel-loader": "^8.1.0",
+    "babel-preset-react-app": "^9.1.2",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "rimraf": "^3.0.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "name": "react-material-workspace-layout",
+  "prettier": {
+    "semi": false
+  },
+  "scripts": {
+    "build": "rimraf dist && NODE_ENV=production babel ./src --ignore \"src/**/*.stories.js\" --out-dir=./dist && cp package.json ./dist/package.json",
+    "build:storybook": "build-storybook -s public",
+    "start": "start-storybook -p 9009 -s public",
+    "storybook": "npm run start",
+    "test": "react-scripts test"
+  },
+  "version": "0.1.17"
+}

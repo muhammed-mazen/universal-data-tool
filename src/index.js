@@ -1,5 +1,14 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import AppWithContexts from "./AppWithContexts"
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
 
-ReactDOM.render(<AppWithContexts />, document.getElementById("root"))
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>,
+  rootElement
+);

@@ -1,3 +1,32 @@
+> This is a customized fork of the [Universal Data Tool (UDT)](https://github.com/UniversalDataTool/universal-data-tool), maintained by [Muhammed Mazen Hafez](https://mhmazen.com).
+
+## What's Different in This Fork?
+
+This version of UDT includes extensive enhancements tailored for production-grade annotation workflows, particularly in multilingual and AI-assisted environments.
+
+### Major Additions
+
+- **RTL (Right-to-Left) Language Support** – Full Arabic interface compatibility.
+- **Integrated Task Manager** – Manage task queues and user assignment across projects.
+- **AI-Assisted Object Marker** – New 3-point polygon tool enhanced by AI suggestions.
+- **Audio Validation Workflow** – Added support for reviewing audio segments with visual waveform and tagging.
+
+### Infrastructure Enhancements
+
+- Refactored and fixed numerous parts of the original codebase.
+- Upstreamed and simplified the **import process** and **task declaration logic**.
+- Introduced flexible **Task Tags** (NER, text classification, etc.) for structured labeling.
+
+### Use Cases
+
+- Suitable for **LLM prompt preparation**, **NER tagging**, **OCR correction**, and **audio alignment tasks**.
+- Used internally within the **WosoM platform** for complex, multi-stage annotation flows.
+
+---
+
+For the original project, see: [Universal Data Tool on GitHub](https://github.com/UniversalDataTool/universal-data-tool)
+
+
 # Universal Data Tool
 
 [![GitHub version](https://badge.fury.io/gh/UniversalDataTool%2Funiversal-data-tool.svg)](https://badge.fury.io/gh/UniversalDataTool%2Funiversal-data-tool)
